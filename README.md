@@ -1,2 +1,2 @@
-# RockPaperScissorsLizardSpok
-RockPaperScissorsLizardSpok Project for Soft Uni
+# Rock Paper Scissors Lizard Spock
+This is the "Rock Paper Scissors" project for the Java Fundamentls class in Soft Uni, of course, has a twist - it takes the version of the game from the television show "The Big Bang Theory". I have also added a few more interesting twists - the game is endless (unless, the player choses to do so), it has a score counter, and declares a final winer of all games (also keeps statistics on the wins and losses of the game)
