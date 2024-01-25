@@ -21,9 +21,9 @@ public class RockPaperScissorsLizardSpock {
         System.out.println("Choose [R]ock, [P]aper, [S]cissors, [L]izard or [Sp]ock: ");
         String userChoice = scanner.nextLine();
 
-        int playerW=0;
-        int computerW=0;
-        int draws=0;
+        int playerW = 0;
+        int computerW = 0;
+        int draws = 0;
 
         while (!userChoice.equalsIgnoreCase("end")) {
 
@@ -153,17 +153,17 @@ public class RockPaperScissorsLizardSpock {
         System.out.println("*****THE GAME IS OVER*****");
 
         //We Determine who is the winner
-        if (playerW<computerW){
+        if (playerW < computerW){
 
             System.out.println("THE COMPUTER IS VICTORIOUS");
             System.out.printf("With %d wins, %d loses, and %d draws",computerW,playerW,draws);
 
-        } else if (playerW>computerW) {
+        } else if (playerW > computerW) {
 
             System.out.println("THE PLAYER IS VICTORIOUS");
             System.out.printf("With %d wins, %d loses, and %d draws",playerW,computerW,draws);
 
-        }else {
+        } else {
             System.out.println("THE GAME WAS A DRAW");
         }
 
