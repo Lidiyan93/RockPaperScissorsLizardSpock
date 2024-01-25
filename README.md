@@ -23,5 +23,5 @@ It is not case sensitive, so even with CapsLock on it should not be a problem.
 The Game ends only when the users types "End"(again not case sensitive).
 
 ## Live DEMO
-You can access the live demo of the project here: 
+You can access the live demo of the project here: https://replit.com/@lidiyandamyanov/RockPaperScissorsLizardSpok
 
